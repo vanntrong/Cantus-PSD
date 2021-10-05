@@ -1,0 +1,55 @@
+:root {
+  --red: #df001f;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Oswald", sans-serif;
+  --third-font: "Great Vibes", cursive;
+}
+html {
+  font-family: var(--primary-font);
+  font-size: 62.5%;
+}
+.btn {
+  border: none;
+}
+.container {
+  padding: 0 37rem;
+}
+.move {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btn-move {
+  border: none;
+  width: 35px;
+  height: 35px;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 5px;
+}
+.btn-move:first-child {
+  margin-left: -5px;
+}
+.btn-move:last-child {
+  margin-right: -5px;
+}
+.heading {
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  cursor: default;
+}
+.sub-heading {
+  font-family: var(--third-font);
+  font-size: 3.2rem;
+  color: var(--red);
+  font-weight: 300;
+  margin-top: -0.5rem;
+  text-transform: capitalize;
+  cursor: default;
+}
