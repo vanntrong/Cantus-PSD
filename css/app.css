@@ -98,6 +98,8 @@
   text-transform: uppercase;
   color: var(--red);
   font-family: var(--secondary-font);
+  user-select: none;
+  cursor: default;
 }
 .banner-desc {
   font-family: var(--third-font);
@@ -107,6 +109,8 @@
   margin-bottom: 9.5rem;
   text-align: center;
   text-transform: capitalize;
+  user-select: none;
+  cursor: default;
 }
 .btn-primary {
   display: block;
