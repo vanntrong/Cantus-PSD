@@ -79,7 +79,7 @@
 .banner::before {
   content: "";
   position: absolute;
-  width: 33.33%;
+  width: 20%;
   height: 2px;
   bottom: -2px;
   right: 0;
@@ -119,6 +119,12 @@
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.25s linear;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: var(--red);
 }
 
 /* -----intro--------- */
@@ -257,6 +263,12 @@
 .btn-coming {
   background-color: var(--red);
   color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.25s linear;
+}
+.btn-coming:hover {
+  background-color: white;
+  color: var(--red);
 }
 .latest-container {
   position: relative;
@@ -312,5 +324,222 @@
   color: var(--red);
   text-transform: uppercase;
   font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.25s linear;
+}
+.btn-learn-more:hover {
+  background-color: var(--red);
+  color: white;
+}
+.playlist {
+  margin-top: 10.5rem;
+}
+.playlist-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 2.5rem;
+}
+.popular-top {
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.playing-list {
+  margin-left: 15px;
+}
+.playing-top {
+  display: flex;
+  align-items: flex-start;
+}
+.playing-title {
+  margin-left: 5px;
+}
+.playing-author {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #b7b3b3;
+}
+.playing-name {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #666666;
+}
+.playing-time {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #b7b3b3;
+}
+.indus {
+  display: inline-block;
+  padding: 5px;
+  background-color: #999999;
+  border-radius: 6px;
+  margin-top: 4px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+}
+.playing-bottom {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.playing-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 10px;
+}
+.playing-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 15px;
+}
+.quantity-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  color: #999;
+  position: relative;
+}
+.quantity-box::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+}
+.quantity-box span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.popular-bottom {
+  margin-top: 4.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.song-list {
+  list-style: none;
+}
+.song-item {
+  padding: 10px 0 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+.song-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #333;
+}
+.instagram-list {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+.downloads {
+  margin-top: 9rem;
+}
+.downloads-container {
+  background-image: url("../image/download-background.png");
+  background-repeat: no-repeat;
+  padding: 80px 0 120px;
+}
+.downloads-list {
+  text-align: center;
+}
+.downloads-heading {
+  font-size: 3.2rem;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.downloads-desc {
+  font-size: 2.2rem;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 25px;
+}
+.download-img {
+  margin-right: 8px;
+}
+.downloads-title {
+  text-align: left;
+}
+.downloads-title span {
+  font-size: 10px;
+  font-weight: 300;
+}
+#text-bold {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+#text-thin {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.subscribe {
+  margin-top: 10.5rem;
+}
+.subscribe-container {
+  width: 54rem;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 5px solid #999;
+}
+.subscribe-text {
+  font-size: 1.6rem;
+  color: #363636;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+.footer {
+  margin-top: 7rem;
+  border-top: 1px solid #d2d2d2;
+}
+.footer-menu {
+  margin: 70px auto 30px;
+  width: 54rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  color: #4e4e4e;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.footer-copyright {
+  text-align: center;
+  margin-bottom: 9rem;
+  font-size: 1.3rem;
+  color: #4e4e4e;
+}
+.footer-copyright span {
+  font-family: var(--third-font);
+  color: var(--red);
+  font-size: 2.8rem;
   font-weight: 600;
 }
