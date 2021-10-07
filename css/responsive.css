@@ -185,6 +185,9 @@
     padding-top: 5rem;
     flex-direction: column;
   }
+  .up-coming {
+    width: 100%;
+  }
   .up-coming-container {
     grid-template-columns: 1fr;
     padding-bottom: 1.5rem;
